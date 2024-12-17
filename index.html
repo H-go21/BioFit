@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>BioFit - Accueil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Exemple avec Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <!-- Placez ici le logo en format image -->
+        <img src="biofit.png" alt="BioFit" />
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#concept">Concept</a></li>
+            <li><a href="#reservation">Réservez</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#reservation" class="btn-cta">Réservez votre séance gratuite</a>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="3.png" class="img-logo" alt="Infographie BioFit" />
+        <h1>Votre énergie. Notre salle.<br>Ensemble, créons un fitness durable.</h1>
+        <p>Découvrez un espace où chaque watt compte et où votre séance devient un engagement pour la planète.</p>
+        <a href="#concept" class="btn-primary">Découvrir BioFit</a>
+    </div>
+</section>
+
+<section id="concept" class="concept">
+    <h2>La salle de sport qui produit de l’énergie.</h2>
+    <p>Chez BioFit, chaque mouvement se transforme en énergie verte. Nos équipements innovants récupèrent et stockent l’électricité générée par vos efforts, alimentant la salle. Ensemble, entraînons-nous pour un avenir plus durable.</p>
+    <div class="concept-infographie">
+        <!-- Placeholder infographie -->
+        <img src="infographie.png" alt="Infographie BioFit" />
+    </div>
+</section>
+
+<section class="services">
+    <div class="service">
+        <h3>Coaching Personnalisé</h3>
+        <p>Atteignez vos objectifs avec nos coachs experts disponibles pour vous guider et optimiser chaque séance.</p>
+        <a href="#reservation" class="btn-link">Réservez une séance avec un coach</a>
+    </div>
+    <div class="service">
+        <h3>Suivi des Performances</h3>
+        <p>Mesurez en temps réel l’énergie que vous produisez et suivez vos progrès sur notre application dédiée.</p>
+    </div>
+    <div class="service">
+        <h3>Partenariats Entreprises</h3>
+        <p>Offrez à vos équipes une expérience sport & bien-être unique, tout en renforçant vos engagements RSE.</p>
+    </div>
+</section>
+
+<section class="temoignages">
+    <h2>Ils nous font confiance</h2>
+    <div class="temoignages-carousel">
+        <div class="temoignage">
+            <img src="client1.jpg" alt="Client 1"/>
+            <blockquote>
+                "J’ai enfin trouvé une salle alignée avec mes valeurs. Ma séance de sport ne se limite plus à me dépasser, elle contribue à un projet plus vaste !"
+            </blockquote>
+            <cite>— Claire, 34 ans</cite>
+        </div>
+        <div class="temoignage">
+            <img src="client2.jpg" alt="Client 2"/>
+            <blockquote>
+                "BioFit, c’est un nouveau souffle pour ma routine sportive. Je sais que mes efforts servent à quelque chose de plus grand."
+            </blockquote>
+            <cite>— Julien, 29 ans</cite>
+        </div>
+    </div>
+</section>
+
+<section id="reservation" class="reservation">
+    <h2>Réservez votre séance découverte gratuite !</h2>
+    <form action="#" method="post">
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="date" name="date" required>
+        <select name="coach">
+            <option value="">Choisissez un coach</option>
+            <option value="coach1">Coach 1</option>
+            <option value="coach2">Coach 2</option>
+        </select>
+        <button type="submit" class="btn-primary">Réservez maintenant</button>
+    </form>
+    <p>Sans engagement, venez tester l’expérience BioFit !</p>
+</section>
+
+<footer>
+    <div class="footer-col">
+        <img src="logo-biofit.png" alt="Logo BioFit" class="footer-logo"/>
+        <p>Au cœur de l’innovation sportive & écologique.</p>
+    </div>
+    <div class="footer-col">
+        <ul>
+            <li><a href="#mentions">Mentions légales</a></li>
+            <li><a href="#cgu">CGU</a></li>
+            <li><a href="#confidentialite">Politique de confidentialité</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <p>Suivez-nous :</p>
+        <div class="socials">
+            <a href="#"><img src="icon-instagram.png" alt="Instagram"/></a>
+            <a href="#"><img src="icon-facebook.png" alt="Facebook"/></a>
+            <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"/></a>
+        </div>
+        <form action="#" method="post" class="newsletter">
+            <input type="email" name="newsletter_email" placeholder="Votre e-mail" required>
+            <button type="submit" class="btn-primary">S’abonner</button>
+        </form>
+    </div>
+    <div class="footer-bottom">
+        <p>© BioFit - Tous droits réservés</p>
+    </div>
+</footer>
+
+</body>
+</html>
